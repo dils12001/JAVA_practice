@@ -1,0 +1,21 @@
+https://blog.csdn.net/Bvoilin/article/details/49491445
+
+E:\Java_Language\HelloWorld> javac -encoding utf8 -d classes src\Student.java
+
+E:\Java_Language\HelloWorld> javac -encoding utf8 -d classes -cp classes src\HelloWorld.java
+
+E:\Java_Language\HelloWorld> java .\classes\HelloWorld      
+Error: Could not find or load main class .\classes\HelloWorld
+Caused by: java.lang.ClassNotFoundException: /\classes\HelloWorld
+
+E:\Java_Language\HelloWorld> cd .\classes\
+
+E:\Java_Language\HelloWorld\classes> java .\HelloWorld      
+Error: Could not find or load main class .\HelloWorld
+Caused by: java.lang.ClassNotFoundException: /\HelloWorld
+
+E:\Java_Language\HelloWorld\classes> java HelloWorld  
+Hello World!!
+100
+35
+吃飯飯
